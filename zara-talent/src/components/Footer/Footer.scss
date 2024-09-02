@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: end;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 120px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .nav {
+    font-size: 20px;
+    text-transform: lowercase;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+
+    a {
+      margin-right: 20px;
+      color: white;
+      font-weight: 500;
+    }
+  }
+}

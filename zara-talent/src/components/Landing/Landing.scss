@@ -1,0 +1,31 @@
+.landing {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black; /* Fondo inicial */
+  transition: background-color 0.5s ease; /* Animación de transición */
+
+  section {
+    width: 100%;
+  }
+
+  .security-margin {
+    margin: 5vw 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #image-1 {
+    width: 60%;
+  }
+
+  &.bg-white {
+    background-color: white;
+  }
+}

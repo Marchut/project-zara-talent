@@ -1,0 +1,27 @@
+.ourpeople {
+  height: 100%;
+  width: 100%;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    text-transform: lowercase;
+    font-size: 120px;
+    margin-bottom: 20px;
+    
+    h1.title-1 {
+      margin: 0;
+      margin-left: 20%;
+      width: 30%;
+      font-weight: 400;
+    }
+
+    h1.title-2 {
+      margin: 0;
+      width: 30%;
+      font-weight: 400;
+    }
+  }
+}

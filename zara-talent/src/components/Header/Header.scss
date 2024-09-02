@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+
+  .header-navigation {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,19 @@
+.logo {
+  position: absolute;
+  top: 10%;
+  font-size: 250px;
+  // justify-content: center;
+  align-items: center;
+  gap: 30px;
+  z-index: 1000;
+
+  .elegant {
+    font-family: 'Great Vibes';
+    font-weight: 200;
+  }
+
+  .normal {
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}

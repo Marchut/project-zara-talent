@@ -1,0 +1,42 @@
+.arteixolife {
+  height: 100%;
+  width: 100%;
+  margin-top: 10%;
+  color: black;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+
+    font-size: 120px;
+
+    h1.title-1 {
+      font-weight: 500;
+      margin: 0;
+      width: 30%;
+    }
+
+    h1.title-2 {
+      text-transform: lowercase;
+      font-weight: 500;
+      margin: 0;
+      margin-left: 20%;
+      width: 40%;
+    }
+
+  }
+
+  .description {
+    margin-left: 5%;
+    text-transform: uppercase;
+
+    font-size: 40px;
+  }
+
+  .carousel {
+    margin-top: -3%;
+  }
+}
